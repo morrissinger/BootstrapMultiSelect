@@ -1,0 +1,31 @@
+.multiselect-selector {
+	border: 1px solid #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	height: 200px;
+	overflow: scroll;
+	padding: 10px;
+}
+
+.multiselect-selector-option {
+	padding: 5px 10px;
+	margin: 4px 0;
+	display: block;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	-webkit-transition: 500ms;
+	transition: 500ms;
+
+	&.selected {
+		background: #428bca;
+		color: white;
+		text-decoration: none;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}

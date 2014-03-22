@@ -1,0 +1,32 @@
+{
+	"name": "morrissinger/bootstrapmultiselect",
+	"description": "A friendly multi-select component as a jQuery plugin for Bootstrap.",
+	"homepage": "http://morrissinger.github.io/BootstrapMultiSelect",
+	"version": "1.0.0",
+	"authors": [
+		{
+			"name": "Morris Singer",
+			"email": "morrissinger@gmail.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/morrissinger/BootstrapMultiSelect/issues"
+	},
+	"repositories": [
+        	{
+			"type": "package",
+			"package": {
+				"name": "jquery/jquery",
+				"version": "1.10.2",
+				"dist": {
+					"url": "http://code.jquery.com/jquery-1.10.2.min.js",
+					"type": "file"
+				}
+			}
+        	}
+    	],
+	"require": {
+		"jquery/jquery": "1.10.*",
+		"twitter/bootstrap": "3.0.*"
+	}
+}
