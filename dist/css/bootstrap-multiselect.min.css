@@ -1,0 +1,6 @@
+/**
+* bootstrap-multiselect.js v1.0.0 by @morrissinger
+* Copyright 2014 Morris Singer
+* http://www.apache.org/licenses/LICENSE-2.0
+*/
+.multiselect-selector{height:200px;padding:10px;overflow:scroll;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.multiselect-selector-option{display:block;padding:5px 10px;margin:4px 0;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-transition:500ms;transition:500ms}.multiselect-selector-option.selected{color:white;text-decoration:none;background:#428bca}.multiselect-selector-option:hover{text-decoration:none}

@@ -1,3 +1,10 @@
+/**
+* bootstrap-multiselect.js v1.0.0 by @morrissinger
+* Copyright 2014 Morris Singer
+* http://www.apache.org/licenses/LICENSE-2.0
+*/
+if (!jQuery) { throw new Error("Bootstrap MultiSelect requires jQuery"); }
+
 /* ==========================================================
  * bootstrap-multiselect.js
  * https://github.com/morrissinger/BootstrapMultiSelect
