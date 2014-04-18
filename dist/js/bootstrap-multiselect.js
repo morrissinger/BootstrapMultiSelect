@@ -39,6 +39,7 @@ if (!jQuery) { throw new Error("Bootstrap MultiSelect requires jQuery"); }
 	  var wrapper = $el.parent(),
   		  $wrapper = $(wrapper);
 
+  	  wrapper.append("<button class=\"btn btn-sm btn-default multiselect-toggle-button\"></button>");
 	  wrapper.append("<div class=\"multiselect-selector\"></div>");
 
 	  var selector = $wrapper.find(".multiselect-selector"),
